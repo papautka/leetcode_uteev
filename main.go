@@ -1,9 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"leetcode/week1_28_04_25_04_05_2025"
 )
 
 func main() {
-	week1_28_04_25_04_05_2025.CountCombination2(3, 3)
+	fmt.Println(week1_28_04_25_04_05_2025.FinalBreaks("ABCABC A"))
 }
